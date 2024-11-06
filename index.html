@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap" rel="stylesheet"/>
@@ -21,8 +23,8 @@
             </h1>
             <span class="text-white font-medium">Rua avenida marcelo, Maceió - AL</span>
 
-        <div class="bg-orange-400 px-4 py-1 rounded-lg mt-4" id="date-span">
-          <span class="font-medium text-black">seg á dom - 16:00 as 23:00</span>      
+        <div class="bg-green-600 px-4 py-1 rounded-lg mt-4" id="date-span">
+          <span class="font-medium text-white">seg à dom - 16:00 às 23:00</span>      
         </div>
     </header>
 
@@ -47,7 +49,7 @@
                 <p class="font-bold text-lg">R$ 32,99</p>
                 <button 
                 class="bg-orange-400 px-4 rounded add-to-cart-btn"
-                data-nome="Hamburguer Smash"
+                data-name="Hamburguer Smash"
                 data-price="32.99"
                 >
                     <i class="fa fa-cart-plus text-lg text-black"></i>
@@ -71,7 +73,7 @@
         <p class="font-bold text-lg">R$ 35,99</p>
         <button 
         class="bg-orange-400 px-4 rounded add-to-cart-btn"
-        data-nome="Hamburguer Duplo"
+        data-name="Hamburguer Duplo"
         data-price="35.99"
         >
             <i class="fa fa-cart-plus text-lg text-black"></i>
@@ -95,7 +97,7 @@
     <p class="font-bold text-lg">R$ 28,99</p>
     <button 
     class="bg-orange-400 px-4 rounded add-to-cart-btn"
-    data-nome="Hamburguer Mega"
+    data-name="Hamburguer Mega"
     data-price="28.99"
     >
         <i class="fa fa-cart-plus text-lg text-black"></i>
@@ -119,7 +121,7 @@
     <p class="font-bold text-lg">R$ 18,99</p>
     <button 
     class="bg-orange-400 px-4 rounded add-to-cart-btn"
-    data-nome="Hamburguer Vegetal"
+    data-name="Hamburguer Vegetal"
     data-price="18.99"
     >
         <i class="fa fa-cart-plus text-lg text-black"></i>
@@ -143,7 +145,7 @@
     <p class="font-bold text-lg">R$ 24,99</p>
     <button 
     class="bg-orange-400 px-4 rounded add-to-cart-btn"
-    data-nome="Burger-Duplo"
+    data-name="Burger-Duplo"
     data-price="24.99"
     >
         <i class="fa fa-cart-plus text-lg text-black"></i>
@@ -167,7 +169,7 @@
     <p class="font-bold text-lg">R$ 30,99</p>
     <button 
     class="bg-orange-400 px-4 rounded add-to-cart-btn"
-    data-nome="Burger-Triplo"
+    data-name="Burger-Triplo"
     data-price="30.99"
     >
         <i class="fa fa-cart-plus text-lg text-black"></i>
@@ -199,7 +201,7 @@
                 <p class="font-bold text-lg">R$ 5,50</p>
                 <button 
                 class="bg-orange-400 px-4 rounded add-to-cart-btn"
-                data-nome="Coca-lata"
+                data-name="Coca-lata"
                 data-price="5.50"
                 >
                     <i class="fa fa-cart-plus text-lg text-black"></i>
@@ -223,7 +225,7 @@
                 <p class="font-bold text-lg">R$ 4,50</p>
                 <button 
                 class="bg-orange-400 px-4 rounded add-to-cart-btn"
-                data-nome="Guarana-lata"
+                data-name="Guarana-lata"
                 data-price="4.50"
                 >
                     <i class="fa fa-cart-plus text-lg text-black"></i>
@@ -275,6 +277,8 @@
             <i class="fa fa-cart-plus text-lg "></i>
         </button>
     </footer>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
 
     <script src="script.js"></script>
 </body>
